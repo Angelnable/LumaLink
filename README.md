@@ -79,7 +79,7 @@ git clone https://github.com/Angelnable/LumaLink.git
 cd LumaLink
 
 # Windows
-gradlew.bat :app:assembleRelease --no-daemon --console=plain
+.\gradlew.bat :app:assembleRelease --no-daemon --console=plain
 
 # Linux / macOS
 ./gradlew :app:assembleRelease --no-daemon --console=plain

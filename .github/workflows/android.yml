@@ -33,7 +33,7 @@ jobs:
         run: ./gradlew :app:assembleDebug --stacktrace
 
       - name: Run unit tests
-        run: ./gradlew testDebugUnitTest --stacktrace
+        run: ./gradlew :protocol:test :core:testDebugUnitTest --stacktrace
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
